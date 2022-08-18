@@ -1,0 +1,69 @@
+img{
+    width: 100%;
+}
+.swiperSlideMainDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.2rem 0;
+    margin: 0 0.1rem;
+    
+    
+} 
+.swiperSlidePriceandPercentDiv{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    direction: ltr;
+    
+}
+.swiperSlidePriceandPercentandLinePriceDiv{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    height: 7rem;
+    justify-content: space-around;
+    align-items: center;
+}
+.outerContainer{
+    width: 97%;
+    margin: 3rem auto;
+    direction: rtl;
+    background-color: #ef394e;
+    border-radius: 15px;
+    height: 21rem;
+}
+.swiper-wrapper{
+    border-radius: 20px;
+}
+.swiperSlideBoxAndAmazingDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin: 20% 0px;
+}
+.AmazingImg{
+    width: 50%;
+}
+.BoxImg{
+    width: 70%;
+}
+.viewAllLink{
+    color: white;
+}
+.swiperSlideViewAllSlide{
+    background-color: white;
+}
+.swiperSlideViewAllCirecle{
+    border: 1px solid rgb(40, 233, 254);
+}
+.swiperSlideViewAllSlide{
+    display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1.2rem 0;
+margin: 0 0.1rem; 
+background-color: white;
+}

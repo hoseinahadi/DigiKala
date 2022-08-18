@@ -1,0 +1,46 @@
+.mainUl{
+    display: flex;
+    direction: rtl;
+    list-style-type: none;
+    font-size: 13.5px;
+    margin-top: 1rem;
+    
+    
+
+}
+
+.mainUl li {
+    list-style-type: none;
+    padding-right: 20px;
+    padding-bottom: 1.45rem;    
+}
+.mainUl li a{
+  display: flex;
+  align-items: flex-end;
+}
+.mainUl li a:not(.categoryLink){
+  color: gray;
+}
+
+.categoryLink{
+    color: rgba(0, 0, 0, 0.819);
+}
+
+.mainUl li ul{
+    display: none;
+    position: fixed;
+    li{
+        margin-top: 5%;
+    }
+
+}
+.mainUl li:hover ul{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: rgb(255, 255, 255);
+    margin-top: 1rem;
+    z-index: 100;
+    border-radius:8px ;
+    
+}

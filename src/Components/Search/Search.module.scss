@@ -1,0 +1,26 @@
+.OterContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    direction: rtl;
+    width: 80%;
+    background-color: #efefef;
+    height: 2.5rem;
+    border-radius: 10px;
+}
+.searchInput{
+    width: 91%;
+    padding-right: 10px;
+    font-size: 15px;
+    direction: rtl;
+    background-color: #efefef;
+    height: 2.5rem;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+}
+.OterContainer svg{
+    cursor: pointer;
+    padding-right:12px ;
+    color: rgb(168, 168, 168);
+}

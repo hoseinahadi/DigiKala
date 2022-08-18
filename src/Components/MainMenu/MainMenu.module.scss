@@ -1,0 +1,27 @@
+.OuterContainer{
+    display: flex;
+    width: 98%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 1.8rem;
+}
+.OuterContainer a img{
+    width: 34%;
+}
+.OuterContainer a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.btnmore{
+    width: 130%;
+    background-color: rgb(225, 225, 225);
+    border-radius: 20px;
+    cursor: pointer;
+    height: 2.7rem;
+    border: none;
+    font-size: 40px;
+    color: gray;
+}

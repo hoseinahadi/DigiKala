@@ -1,0 +1,20 @@
+.headerDown{
+    margin-top: .65rem;
+    align-items: center;
+    display: flex;
+}
+.leftHeader{
+    display: flex;
+    align-items: center;
+    width: 40%;
+}
+.rightHeader{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    width: 60%;
+}
+.HeaderAdvertiseImg{
+    width: 100%;
+    height: 3.6rem;
+}
