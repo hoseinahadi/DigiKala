@@ -5,6 +5,8 @@ import ImageSlider from '../ImageSlider/ImageSlider'
 import AmazingSupperMarket from '../../Components/AmazingSupperMarket/AmazingSupperMarket'
 import AmazingofferCart from "../../Components/Amazingoffer/AmazingofferCart";
 import BannerUnderAmazing from '../../Components/BannerUnderAmazing/BannerUnderAmazing'
+import MainCategory from '../../Components/MainCategory/MainCategory'
+import BannerUnderCategory from '../../Components/BannerUnderCategory/BannerUnderCategory'
 
 const Main = () => {
   return (
@@ -14,6 +16,8 @@ const Main = () => {
          <AmazingofferCart/>
         <AmazingSupperMarket/>
         <BannerUnderAmazing/>
+        <MainCategory/>
+        <BannerUnderCategory/>
     </div>
   )
 }

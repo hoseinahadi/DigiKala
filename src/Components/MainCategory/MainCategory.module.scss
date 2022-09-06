@@ -1,0 +1,17 @@
+.categoryDivContainer{
+    display: flex;
+    direction: rtl;
+    flex-wrap: wrap;
+    width: 97%;
+    margin: 0 auto;
+}
+.categoryImgDiv{
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    img{
+        width: 70%;
+    }
+}
